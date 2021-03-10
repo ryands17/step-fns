@@ -15,18 +15,27 @@ export class StepFnsStack extends cdk.Stack {
 
     let double = new tasks.LambdaInvoke(this, 'double the number', {
       lambdaFunction: lambdaFn(this, 'double'),
-      outputPath: '$.Payload',
       payloadResponseOnly: true,
     })
     double.addRetry({ maxAttempts: 0, errors: ['NumberIsTooBig'] })
 
-    let catchState = new sfn.Pass(this, 'catch state', {
-      result: { value: 42 },
-    })
+    let doubleBigNumber = new tasks.LambdaInvoke(
+      this,
+      'double the bigger number',
+      {
+        lambdaFunction: lambdaFn(this, 'doubleBigNumber'),
+        payloadResponseOnly: true,
+      }
+    )
 
-    double.addCatch(catchState, { errors: ['NumberIsTooBig'] })
+    double.addCatch(doubleBigNumber, { errors: ['NumberIsTooBig'] })
 
-    let definition = add.next(double)
+    let isBigNumber = new sfn.Choice(this, 'isBigNumber')
+    isBigNumber
+      .when(sfn.Condition.numberGreaterThan('$', 50), doubleBigNumber)
+      .otherwise(double)
+
+    let definition = add.next(isBigNumber)
 
     new sfn.StateMachine(this, 'chaining', {
       definition,

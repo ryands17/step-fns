@@ -1,5 +1,3 @@
-// import { StepFun } from "aws-lambda";
-
 class NumberIsTooBig extends Error {
   constructor(n: number) {
     super(`${n} is too big`)
@@ -9,6 +7,6 @@ class NumberIsTooBig extends Error {
 }
 
 export const handler = async (input: any) => {
-  if (input.sum > 50) throw new NumberIsTooBig(input.sum)
-  return input.sum * 2
+  if (input > 50) throw new NumberIsTooBig(input)
+  return input * 2
 }
