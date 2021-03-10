@@ -1,5 +1,7 @@
 # Exploring Step functions
 
+[![Build Status](https://github.com/ryands17/step-fns/actions/workflows/main.yml/badge.svg)](https://github.com/ryands17/step-fns/actions/workflows/main.yml)
+
 This is an exploration of Step Functions using the CDK based on the [following](https://theburningmonk.thinkific.com/courses/complete-guide-to-aws-step-functions) tutorial by [Yan Cui](https://twitter.com/theburningmonk).
 
 ## Prerequisites
