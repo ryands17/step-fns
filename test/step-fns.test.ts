@@ -1,13 +1,13 @@
-// import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
-// import * as cdk from '@aws-cdk/core';
-// import * as StepFns from '../lib/step-fns-stack';
+import { SynthUtils } from '@aws-cdk/assert'
+import * as cdk from '@aws-cdk/core'
+import * as StepFns from '../lib/step-fns-stack'
 
-// test('Empty Stack', () => {
-//     const app = new cdk.App();
-//     // WHEN
-//     const stack = new StepFns.StepFnsStack(app, 'MyTestStack');
-//     // THEN
-//     expectCDK(stack).to(matchTemplate({
-//       "Resources": {}
-//     }, MatchStyle.EXACT))
-// });
+test('Snapshot matches resources', () => {
+  const stack = createStack({ outdir: 'cdk.out', stackTraces: false })
+  expect(SynthUtils.toCloudFormation(stack)).toMatchSnapshot()
+})
+
+function createStack(props?: cdk.AppProps) {
+  const app = new cdk.App(props)
+  return new StepFns.StepFnsStack(app, 'MyTestStack')
+}
