@@ -15,28 +15,40 @@ Object {
       "Description": "S3 key for asset version \\"67b7823b74bc135986aa72f889d6a8da058d0c4a20cbc2dfc6f78995fdd2fc24\\"",
       "Type": "String",
     },
-    "AssetParametersd4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eebArtifactHash4B6B1270": Object {
-      "Description": "Artifact hash for asset \\"d4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eeb\\"",
+    "AssetParametersc9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324caArtifactHash90E2D53E": Object {
+      "Description": "Artifact hash for asset \\"c9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324ca\\"",
       "Type": "String",
     },
-    "AssetParametersd4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eebS3Bucket3416D943": Object {
-      "Description": "S3 bucket for asset \\"d4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eeb\\"",
+    "AssetParametersc9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324caS3Bucket875981DA": Object {
+      "Description": "S3 bucket for asset \\"c9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324ca\\"",
       "Type": "String",
     },
-    "AssetParametersd4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eebS3VersionKey5E1DD0C1": Object {
-      "Description": "S3 key for asset version \\"d4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eeb\\"",
+    "AssetParametersc9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324caS3VersionKeyF8E4C299": Object {
+      "Description": "S3 key for asset version \\"c9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324ca\\"",
       "Type": "String",
     },
-    "AssetParametersfc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911ArtifactHash09A15D7C": Object {
-      "Description": "Artifact hash for asset \\"fc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911\\"",
+    "AssetParameterse14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29ArtifactHash89E94185": Object {
+      "Description": "Artifact hash for asset \\"e14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29\\"",
       "Type": "String",
     },
-    "AssetParametersfc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911S3Bucket53017C38": Object {
-      "Description": "S3 bucket for asset \\"fc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911\\"",
+    "AssetParameterse14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29S3Bucket55097FDE": Object {
+      "Description": "S3 bucket for asset \\"e14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29\\"",
       "Type": "String",
     },
-    "AssetParametersfc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911S3VersionKeyE8464FB0": Object {
-      "Description": "S3 key for asset version \\"fc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911\\"",
+    "AssetParameterse14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29S3VersionKey6D2268C1": Object {
+      "Description": "S3 key for asset version \\"e14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29\\"",
+      "Type": "String",
+    },
+    "AssetParametersff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34fArtifactHash06FE406E": Object {
+      "Description": "Artifact hash for asset \\"ff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34f\\"",
+      "Type": "String",
+    },
+    "AssetParametersff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34fS3Bucket88A980CC": Object {
+      "Description": "S3 bucket for asset \\"ff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34f\\"",
+      "Type": "String",
+    },
+    "AssetParametersff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34fS3VersionKey5387DB30": Object {
+      "Description": "S3 key for asset version \\"ff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34f\\"",
       "Type": "String",
     },
   },
@@ -158,7 +170,7 @@ Object {
       "Properties": Object {
         "Code": Object {
           "S3Bucket": Object {
-            "Ref": "AssetParametersd4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eebS3Bucket3416D943",
+            "Ref": "AssetParametersff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34fS3Bucket88A980CC",
           },
           "S3Key": Object {
             "Fn::Join": Array [
@@ -171,7 +183,7 @@ Object {
                       "Fn::Split": Array [
                         "||",
                         Object {
-                          "Ref": "AssetParametersd4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eebS3VersionKey5E1DD0C1",
+                          "Ref": "AssetParametersff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34fS3VersionKey5387DB30",
                         },
                       ],
                     },
@@ -184,7 +196,7 @@ Object {
                       "Fn::Split": Array [
                         "||",
                         Object {
-                          "Ref": "AssetParametersd4c84c4ed03d6130dd3e6e0161d8764def74904cab1c112a5288031a33162eebS3VersionKey5E1DD0C1",
+                          "Ref": "AssetParametersff43ba4241ebd6f44892a46e3da58f261a8a3a4cd4c826a054cdb54b20cbf34fS3VersionKey5387DB30",
                         },
                       ],
                     },
@@ -275,21 +287,28 @@ Object {
           "Fn::Join": Array [
             "",
             Array [
-              "{\\"StartAt\\":\\"add 2 numbers\\",\\"States\\":{\\"add 2 numbers\\":{\\"Next\\":\\"double the number\\",\\"Retry\\":[{\\"ErrorEquals\\":[\\"Lambda.ServiceException\\",\\"Lambda.AWSLambdaException\\",\\"Lambda.SdkClientException\\"],\\"IntervalSeconds\\":2,\\"MaxAttempts\\":6,\\"BackoffRate\\":2}],\\"Type\\":\\"Task\\",\\"Resource\\":\\"",
+              "{\\"StartAt\\":\\"add 2 numbers\\",\\"States\\":{\\"add 2 numbers\\":{\\"Next\\":\\"isBigNumber\\",\\"Retry\\":[{\\"ErrorEquals\\":[\\"Lambda.ServiceException\\",\\"Lambda.AWSLambdaException\\",\\"Lambda.SdkClientException\\"],\\"IntervalSeconds\\":2,\\"MaxAttempts\\":6,\\"BackoffRate\\":2}],\\"Type\\":\\"Task\\",\\"Resource\\":\\"",
               Object {
                 "Fn::GetAtt": Array [
                   "addDEC2DAFB",
                   "Arn",
                 ],
               },
-              "\\"},\\"double the number\\":{\\"End\\":true,\\"Retry\\":[{\\"ErrorEquals\\":[\\"Lambda.ServiceException\\",\\"Lambda.AWSLambdaException\\",\\"Lambda.SdkClientException\\"],\\"IntervalSeconds\\":2,\\"MaxAttempts\\":6,\\"BackoffRate\\":2},{\\"ErrorEquals\\":[\\"NumberIsTooBig\\"],\\"MaxAttempts\\":0}],\\"Catch\\":[{\\"ErrorEquals\\":[\\"NumberIsTooBig\\"],\\"Next\\":\\"catch state\\"}],\\"Type\\":\\"Task\\",\\"OutputPath\\":\\"$.Payload\\",\\"Resource\\":\\"",
+              "\\"},\\"isBigNumber\\":{\\"Type\\":\\"Choice\\",\\"Choices\\":[{\\"Variable\\":\\"$\\",\\"NumericGreaterThan\\":50,\\"Next\\":\\"double the bigger number\\"}],\\"Default\\":\\"double the number\\"},\\"double the number\\":{\\"End\\":true,\\"Retry\\":[{\\"ErrorEquals\\":[\\"Lambda.ServiceException\\",\\"Lambda.AWSLambdaException\\",\\"Lambda.SdkClientException\\"],\\"IntervalSeconds\\":2,\\"MaxAttempts\\":6,\\"BackoffRate\\":2},{\\"ErrorEquals\\":[\\"NumberIsTooBig\\"],\\"MaxAttempts\\":0}],\\"Catch\\":[{\\"ErrorEquals\\":[\\"NumberIsTooBig\\"],\\"Next\\":\\"double the bigger number\\"}],\\"Type\\":\\"Task\\",\\"Resource\\":\\"",
               Object {
                 "Fn::GetAtt": Array [
                   "double71C0A51C",
                   "Arn",
                 ],
               },
-              "\\"},\\"catch state\\":{\\"Type\\":\\"Pass\\",\\"Result\\":42,\\"End\\":true}},\\"TimeoutSeconds\\":120}",
+              "\\"},\\"double the bigger number\\":{\\"End\\":true,\\"Retry\\":[{\\"ErrorEquals\\":[\\"Lambda.ServiceException\\",\\"Lambda.AWSLambdaException\\",\\"Lambda.SdkClientException\\"],\\"IntervalSeconds\\":2,\\"MaxAttempts\\":6,\\"BackoffRate\\":2}],\\"Type\\":\\"Task\\",\\"Resource\\":\\"",
+              Object {
+                "Fn::GetAtt": Array [
+                  "doubleBigNumber2ACC4FF4",
+                  "Arn",
+                ],
+              },
+              "\\"}},\\"TimeoutSeconds\\":120}",
             ],
           ],
         },
@@ -354,6 +373,16 @@ Object {
                 ],
               },
             },
+            Object {
+              "Action": "lambda:InvokeFunction",
+              "Effect": "Allow",
+              "Resource": Object {
+                "Fn::GetAtt": Array [
+                  "doubleBigNumber2ACC4FF4",
+                  "Arn",
+                ],
+              },
+            },
           ],
           "Version": "2012-10-17",
         },
@@ -373,7 +402,7 @@ Object {
       "Properties": Object {
         "Code": Object {
           "S3Bucket": Object {
-            "Ref": "AssetParametersfc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911S3Bucket53017C38",
+            "Ref": "AssetParameterse14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29S3Bucket55097FDE",
           },
           "S3Key": Object {
             "Fn::Join": Array [
@@ -386,7 +415,7 @@ Object {
                       "Fn::Split": Array [
                         "||",
                         Object {
-                          "Ref": "AssetParametersfc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911S3VersionKeyE8464FB0",
+                          "Ref": "AssetParameterse14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29S3VersionKey6D2268C1",
                         },
                       ],
                     },
@@ -399,7 +428,7 @@ Object {
                       "Fn::Split": Array [
                         "||",
                         Object {
-                          "Ref": "AssetParametersfc11a423ce510824bf0df4ef07a1241bdc5aed7229f9146fa24cad8eaee2f911S3VersionKeyE8464FB0",
+                          "Ref": "AssetParameterse14f1b160ac97eea9a52231485b365ea3f1704568c0e53911fc6e93870d90c29S3VersionKey6D2268C1",
                         },
                       ],
                     },
@@ -425,6 +454,120 @@ Object {
         "Runtime": "nodejs14.x",
       },
       "Type": "AWS::Lambda::Function",
+    },
+    "doubleBigNumber2ACC4FF4": Object {
+      "DependsOn": Array [
+        "doubleBigNumberServiceRole456F5997",
+      ],
+      "Properties": Object {
+        "Code": Object {
+          "S3Bucket": Object {
+            "Ref": "AssetParametersc9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324caS3Bucket875981DA",
+          },
+          "S3Key": Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                Object {
+                  "Fn::Select": Array [
+                    0,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParametersc9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324caS3VersionKeyF8E4C299",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                Object {
+                  "Fn::Select": Array [
+                    1,
+                    Object {
+                      "Fn::Split": Array [
+                        "||",
+                        Object {
+                          "Ref": "AssetParametersc9f2da6914ad1d0e0c31426b3fa0f686d4d30b96f2101ab412a889aa712324caS3VersionKeyF8E4C299",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            ],
+          },
+        },
+        "Environment": Object {
+          "Variables": Object {
+            "AWS_NODEJS_CONNECTION_REUSE_ENABLED": "1",
+            "NODE_OPTIONS": "--enable-source-maps",
+          },
+        },
+        "Handler": "index.handler",
+        "Role": Object {
+          "Fn::GetAtt": Array [
+            "doubleBigNumberServiceRole456F5997",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs14.x",
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "doubleBigNumberLogRetention27D9FAF4": Object {
+      "Properties": Object {
+        "LogGroupName": Object {
+          "Fn::Join": Array [
+            "",
+            Array [
+              "/aws/lambda/",
+              Object {
+                "Ref": "doubleBigNumber2ACC4FF4",
+              },
+            ],
+          ],
+        },
+        "RetentionInDays": 7,
+        "ServiceToken": Object {
+          "Fn::GetAtt": Array [
+            "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "Custom::LogRetention",
+    },
+    "doubleBigNumberServiceRole456F5997": Object {
+      "Properties": Object {
+        "AssumeRolePolicyDocument": Object {
+          "Statement": Array [
+            Object {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": Object {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": Array [
+          Object {
+            "Fn::Join": Array [
+              "",
+              Array [
+                "arn:",
+                Object {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
     },
     "doubleLogRetentionCD092049": Object {
       "Properties": Object {
