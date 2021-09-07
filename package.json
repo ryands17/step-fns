@@ -13,11 +13,11 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.117.0",
+    "@aws-cdk/assert": "1.121.0",
     "@types/aws-lambda": "8.10.83",
     "@types/jest": "26.0.24",
     "@types/node": "15.12.2",
-    "aws-cdk": "1.117.0",
+    "aws-cdk": "1.121.0",
     "esbuild": "0.12.25",
     "husky": "7.0.2",
     "jest": "27.0.6",
@@ -28,10 +28,10 @@
     "typescript": "4.3.5"
   },
   "dependencies": {
-    "@aws-cdk/aws-lambda-nodejs": "1.117.0",
-    "@aws-cdk/aws-stepfunctions": "1.117.0",
-    "@aws-cdk/aws-stepfunctions-tasks": "1.117.0",
-    "@aws-cdk/core": "1.117.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.121.0",
+    "@aws-cdk/aws-stepfunctions": "1.121.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "1.121.0",
+    "@aws-cdk/core": "1.121.0",
     "source-map-support": "0.5.19"
   },
   "prettier": {
