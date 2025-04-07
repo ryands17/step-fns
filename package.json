@@ -25,7 +25,7 @@
     "prettier": "3.5.3",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
-    "typescript": "5.7.3"
+    "typescript": "5.8.3"
   },
   "dependencies": {
     "@aws-cdk/aws-lambda-nodejs": "1.204.0",
