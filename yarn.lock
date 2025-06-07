@@ -1924,10 +1924,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk@2.1013.0:
-  version "2.1013.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1013.0.tgz#14663ede2456b53dc26024ce29b8cc599803138e"
-  integrity sha512-cbq4cOoEIZueMWenGgfI4RujS+AQ9GaMCTlW/3CnvEIhMD8j/tgZx7PTtgMuvwYrRoEeb/wTxgLPgUd5FhsoHA==
+aws-cdk@2.1018.0:
+  version "2.1018.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1018.0.tgz#96f4766d3b451608c79144f72852e38511e0c42d"
+  integrity sha512-sppVsNtFJTW4wawS/PBudHCSNHb8xwaZ2WX1mpsfwaPNyTWm0eSUVJsRbRiRBu9O/Us8pgrd4woUjfM1lgD7Kw==
   optionalDependencies:
     fsevents "2.3.2"
 
