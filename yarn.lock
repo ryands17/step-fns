@@ -2089,10 +2089,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk@2.1105.0:
-  version "2.1105.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1105.0.tgz#937cb2072b9bfd6544fd3a3be99cd0697f018852"
-  integrity sha512-1RY2UZJv31XYobEGFHQEb7c2HXNzDbHuHqdnfdYyygvZW4Nrm8MJCW42lqItQCn+wF52Ixc7r2VR5eR4YGtVhA==
+aws-cdk@2.1109.0:
+  version "2.1109.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1109.0.tgz#ce96af9eb9d5b7b45d5946cafb0f2a1be2ebcc42"
+  integrity sha512-K0jvr5ne9kvDrFfdzbPee/s2rH/iXdGoMHTp/0jaj1qFMOh49RkLWTnURa0sBpJJ0uB2sMzIx7YRmAn55wAy1Q==
 
 babel-jest@30.2.0:
   version "30.2.0"
