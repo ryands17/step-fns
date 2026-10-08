@@ -17,7 +17,7 @@
     "@types/aws-lambda": "8.10.164",
     "@types/jest": "30.0.0",
     "@types/node": "24.19.1",
-    "aws-cdk": "2.1140.0",
+    "aws-cdk": "2.1145.0",
     "esbuild": "0.28.2",
     "husky": "9.1.7",
     "jest": "30.5.2",
